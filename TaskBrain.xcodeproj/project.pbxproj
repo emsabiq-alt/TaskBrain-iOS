@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA100001 /* TaskBrainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100001 /* TaskBrainApp.swift */; };
+		AA100002 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100002 /* TaskItem.swift */; };
+		AA100003 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100003 /* APIService.swift */; };
+		AA100004 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100004 /* SpeechRecognizer.swift */; };
+		AA100005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100005 /* ContentView.swift */; };
+		AA100006 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100006 /* TaskRowView.swift */; };
+		AA100007 /* BrainDumpSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100007 /* BrainDumpSheet.swift */; };
+		AA100008 /* EditTaskSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100008 /* EditTaskSheet.swift */; };
+		AA100009 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100009 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC100001 /* TaskBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB100001 /* TaskBrainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBrainApp.swift; sourceTree = "<group>"; };
+		BB100002 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		BB100003 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BB100004 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		BB100005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB100006 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		BB100007 /* BrainDumpSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainDumpSheet.swift; sourceTree = "<group>"; };
+		BB100008 /* EditTaskSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskSheet.swift; sourceTree = "<group>"; };
+		BB100009 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BB100010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD100001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE100001 = {
+			isa = PBXGroup;
+			children = (
+				EE100002 /* TaskBrain */,
+				EE100003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE100002 /* TaskBrain */ = {
+			isa = PBXGroup;
+			children = (
+				BB100001 /* TaskBrainApp.swift */,
+				EE100004 /* Models */,
+				EE100005 /* Services */,
+				EE100006 /* Views */,
+				BB100010 /* Info.plist */,
+			);
+			path = TaskBrain;
+			sourceTree = "<group>";
+		};
+		EE100003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC100001 /* TaskBrain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE100004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB100002 /* TaskItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE100005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB100003 /* APIService.swift */,
+				BB100004 /* SpeechRecognizer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EE100006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB100005 /* ContentView.swift */,
+				BB100006 /* TaskRowView.swift */,
+				BB100007 /* BrainDumpSheet.swift */,
+				BB100008 /* EditTaskSheet.swift */,
+				BB100009 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF100001 /* TaskBrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = GG100001 /* Build configuration list for PBXNativeTarget "TaskBrain" */;
+			buildPhases = (
+				HH100001 /* Sources */,
+				DD100001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskBrain;
+			productName = TaskBrain;
+			productReference = CC100001 /* TaskBrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00100001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FF100001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 00100002 /* Build configuration list for PBXProject "TaskBrain" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE100001;
+			productRefGroup = EE100003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF100001 /* TaskBrain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		HH100001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA100001 /* TaskBrainApp.swift in Sources */,
+				AA100002 /* TaskItem.swift in Sources */,
+				AA100003 /* APIService.swift in Sources */,
+				AA100004 /* SpeechRecognizer.swift in Sources */,
+				AA100005 /* ContentView.swift in Sources */,
+				AA100006 /* TaskRowView.swift in Sources */,
+				AA100007 /* BrainDumpSheet.swift in Sources */,
+				AA100008 /* EditTaskSheet.swift in Sources */,
+				AA100009 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		JJ100001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		JJ100002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		JJ100003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TaskBrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsapro.taskbrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		JJ100004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TaskBrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsapro.taskbrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00100002 /* Build configuration list for PBXProject "TaskBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				JJ100001 /* Debug */,
+				JJ100002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		GG100001 /* Build configuration list for PBXNativeTarget "TaskBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				JJ100003 /* Debug */,
+				JJ100004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00100001 /* Project object */;
+}
